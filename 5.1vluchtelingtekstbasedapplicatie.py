@@ -2,7 +2,7 @@
 from re import L
 from time import sleep
 
-#function quiz code
+#function game code
 def reprogram():
     restart = input ("Zou je opnieuw willen beginnen? JA of NEE: ")
     if restart == "JA": 
@@ -36,7 +36,7 @@ def game():
         sleep(1.0)
         doorgaan = False
         while doorgaan == False:
-            print ("Mijn stap is: \nA Vrienden zoeken \nB Voor jezelf gaan") #2
+            print ("Mijn stap is: \nA Pad 1.0 Vrienden zoeken: \nB Pad 2.0 Voor mezelf gaan \Pad 3.0 Meedoen aan de oorlog") #2
             answer1 = input(str("Antwoord: ")) 
             if answer1 == "A":
                 print("Je gaat voor je vrienden zoeken..")
@@ -58,7 +58,8 @@ def game():
                 if pad2 ==("Ja"):
                     print("Je pakt een pistool maar plotseling ontploft het in je gezicht")
                     print("Zou dit de karma zijn van je vrienden in de steek laten?")
-                    print("Ending: IDIOT ENDING")
+                    print("Ending: IDIOT ENDING") #1e einde (domme einde)
+                    (reprogram)
                 elif pad2 ==("Nee"):
                     print("Slimme keuze want je zou niet doorgelaten worden op het vliegeld!")
                 else:
