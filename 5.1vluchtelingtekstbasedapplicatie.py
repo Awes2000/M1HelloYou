@@ -91,7 +91,7 @@ def game():
                     sleep(2.5)
                     doorgaan = True
                 else:
-                    print(try_again)
+                    try_again
             
             doorgaan = False
             
