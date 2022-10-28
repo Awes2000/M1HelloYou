@@ -1,6 +1,6 @@
 # M1HelloYou Game 
 ## Deze game heeft de volgende:
-# Tip! Download beide python files en open in VS code.
+# Tip! Download beide python files en open in VS code
 - **functies**
 - **loops**
 - **imports**
