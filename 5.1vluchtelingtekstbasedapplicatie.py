@@ -6,6 +6,7 @@ import defs
 from playsound import playsound 
 #from defs import pad1_0, pad1_1 
 
+
 #function game code
 def reprogram():
     restart = input ("Zou je opnieuw willen beginnen? JA of NEE: ")
@@ -20,7 +21,13 @@ def game():
      wrong = 'Dat is niet het juiste antwoord.'
      try_again = 'Dit is geen geldig antwoord, voer een geldig antwoord in'
 
-    
+#main code 
+
+print ("Laten we starten, wat is je naam?:")
+sleep(2.0)
+naam = input()
+print ("Hallo! " + naam)
+sleep(2.0)
 print("Welkom in mijn vluchteling verhaal!")
 sleep(2.0)
 print("Dit verhaal gaat over een man die is ontsnapt uit voormalig Yugoslavie")
@@ -29,7 +36,7 @@ print("Zijn doel is om een beter leven te leiden")
 sleep(2.0)
 print("Jij zal hem begeleiden in zijn verhaal om een betere toekomst te vinden")
 sleep(2.0)
-print("Er zijn 4 verschillende eindes dus kies maar wat je wilt!")
+print("Er zijn veel verschillende soorten eindes, kan jij ze allemaal vinden?")
 sleep(2.0)
 print ("Je bent nu in Yugoslavie, het is onveilig en er onstaat een burgeroorlog...")
 sleep(2.0)
@@ -52,18 +59,10 @@ while doorgaan == False:
         pad3_0()
         doorgaan = True
     else:
-        try_again
+        print(try_again)
             
         
            
 
-#main code 
-
-print ("Laten we starten, wat is je naam?:")
-sleep(2.0)
-naam = input()
-print ("Hallo! " + naam)
-game()
-    
 
     
