@@ -11,3 +11,4 @@
 ### Verbetering van loops
 ### Sound optimaliseren (is beetje buggy)
 ### Werken met sleep module zodat het niet te snel gaat
+### Nesting verbetering en netter maken

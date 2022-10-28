@@ -477,7 +477,7 @@ def pad3_02(): #we gaan voor battle (je moraal is hoog btw) #9
     print("De commandant selecteerd je als leider, je had goeie feedback door je mede-soldaten")
     print("De tegenstander ziet je op het veld")
     print("De tijd is gekomen om te vechten")
-    answer = input("Houd je een speech of ga je direct naar battle? \nA: Battle \nB: Speech")
+    answer = input("Houd je een speech of ga je direct naar battle? \nB: Speech \nB: Battle")
     if answer=="A":
         print("Je houd je speech:")
         print("Lets kill some noobs")
@@ -502,6 +502,7 @@ def pad3_03(): #oorlog gewonnen!! 10#
     print("De burgeroolog is over en je kan eindelijk naar huis gaan")
     print("Jammer genoeg is Yugoslavie nu verdeeld in verschillende soorten landen")
     print("Maar je hebt hard gestreden voor je land en behoud je eer")
+    print("Einde: Victory!!")
     #einde
 
 def pad3_1(): #11 #niet juichen
